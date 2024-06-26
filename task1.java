@@ -12,7 +12,7 @@ public class NumberGame {
             int rand= getrandN(1,100);
             boolean guess=false;
             for (int i=0; i<chance ; i++){
-                System.out.println("Chance " + (i + 1) + " Enter your guess:");
+                System.out.println("Chance " + (i + 1) + ": Enter your guess:");
                 int user = sc.nextInt();
                 if(user == rand){
                     guess=true;
